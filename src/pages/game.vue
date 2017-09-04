@@ -19,6 +19,8 @@
                     {
                         placeholder: 'Spiller 1',
                         name: null,
+                        ships: [],
+                        points: 0,
                         id: 1,
                         ready: false,
                         active: false
@@ -26,6 +28,8 @@
                     {
                         placeholder: 'Spiller 2',
                         name: null,
+                        points: 0,
+                        ships: [],
                         id: 2,
                         ready: false,
                         active: false
