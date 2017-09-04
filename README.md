@@ -1,8 +1,28 @@
-# battleship
+# vue2_project_template
+> A clean vue2 template with the Deveo structure and pre-implemented useful packages and methods. This repo should be used as a template when creating new Deveo projects.
 
-> Simple battleship game
+### Structure:
+* Webpack compiler with hot reload
+* Sass-loader (Bootstrap and Font Awesome pre-installed)
+* ESLint code linting
+* Unit testing with Karma + Mocha
+* End-to-end testing with Nightwatch
+* API requests as services with VueAxios
+* Global eventHub
 
-## Build Setup
+### Included packages:
+* vue-router
+* vuex
+* vue-axios
+* vue-moment
+* node-sass
+* sass-loader
+
+### Included methods:
+* Check if user is online, otherwise throw offline template
+* In case of bad URL request, throw 404 template
+
+### Build Setup
 
 ``` bash
 # install dependencies
@@ -27,4 +47,7 @@ npm run e2e
 npm test
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### License
+[MIT](http://opensource.org/licenses/MIT)
+
+[![alt text](https://s3-eu-west-1.amazonaws.com/rk-solutions/github_footer.png)](https://deveo.dk)
